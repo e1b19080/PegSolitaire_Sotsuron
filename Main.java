@@ -1,7 +1,7 @@
 // Todo
 //・sotsuron.javaでできたとこまでGitCraken使いながら複製する．
 //・違うクラスを別ファイルで作る方法
-//・17行目引数力業すぎわろた．
+//・
 
 
 public class Main {
@@ -14,7 +14,7 @@ public class Main {
         grid.pin = new int[]{-1,1,-1,-1,1,-1,-1,-1,-1};
         grid.state = new int[]{0,0,0,0,0,0,0,0,0};
         
-        //Confirm confirm = new Confirm();
-        //confirm.confirmPin(grid);
+        Confirm confirm = new Confirm();
+        confirm.confirmPin(grid);
     }
 }
