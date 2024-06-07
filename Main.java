@@ -15,6 +15,6 @@ public class Main {
         grid.state = new int[]{0,0,0,0,0,0,0,0,0};
         
         Confirm confirm = new Confirm();
-        confirm.confirmPin(grid);
+        confirm.confirmBoard(grid);
     }
 }

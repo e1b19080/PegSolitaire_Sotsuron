@@ -1,7 +1,7 @@
 //gridの値が変わっているか確認表示するためのプログラム．完成時には使用しない．
 
 public class Confirm{
-    public void confirmPin(Grid grid){
+    public void confirmBoard(Grid grid){
         System.out.println("\ngridCheck");
         System.out.println("********************************");
         
