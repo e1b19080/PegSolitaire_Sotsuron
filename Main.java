@@ -14,7 +14,7 @@ public class Main {
         grid.pin = new int[]{-1,1,-1,-1,1,-1,-1,-1,-1};
         grid.state = new int[]{0,0,0,0,0,0,0,0,0};
         
-        Confirm confirm = new Confirm();
-        confirm.confirmBoard(grid);
+        
+        Display.displayBoard();
     }
 }
